@@ -1,0 +1,5 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+sample-A1	$PWD/../data/sample-A1_R1.fastq.gz	$PWD/../data/sample-A1_R2.fastq.gz
+sample-A2	$PWD/../data/sample-A2_R1.fastq.gz	$PWD/../data/sample-A2_R2.fastq.gz
+sample-B1	$PWD/../data/sample-B1_R1.fastq.gz	$PWD/../data/sample-B1_R2.fastq.gz
+sample-B2	$PWD/../data/sample-B2_R1.fastq.gz	$PWD/../data/sample-B2_R2.fastq.gz

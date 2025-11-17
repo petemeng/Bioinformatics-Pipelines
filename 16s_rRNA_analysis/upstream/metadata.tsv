@@ -1,0 +1,5 @@
+#SampleID	treatment_group	timepoint
+sample-A1	Control	T1
+sample-A2	Control	T2
+sample-B1	Treatment	T1
+sample-B2	Treatment	T2
