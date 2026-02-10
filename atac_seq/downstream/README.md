@@ -59,3 +59,9 @@ bash scripts/run_atac_downstream.sh \
 
 - 若存在批次效应，建议扩展设计公式到 `~ batch + group`。
 - 建议报告 FDR、log2FC 及生物学效应解释，而不仅是 p 值。
+
+## Common Pitfalls
+
+- `sample_id` in metadata must match featureCounts sample columns exactly (after `.clean.bam` suffix removal).
+- For complex designs, replace `design = ~ group` with a covariate-aware formula.
+- Validate group balance and outliers before interpreting DA peaks.

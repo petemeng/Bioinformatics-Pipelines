@@ -24,7 +24,7 @@ Here is a directory of the analysis pipelines currently available in this reposi
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://your-repository-url/Bioinformatics-Pipelines.git
+    git clone https://github.com/petemeng/Bioinformatics-Pipelines.git
     cd Bioinformatics-Pipelines
     ```
 2.  **Navigate to a pipeline:**
@@ -34,6 +34,19 @@ Here is a directory of the analysis pipelines currently available in this reposi
     ```
 3.  **Follow the instructions:**
     Each pipeline directory contains a detailed `README.md` file with specific instructions on dependencies, setup, and usage.
+
+
+## 📌 Recommended Entry for ATAC-seq
+
+If you are starting from the new ATAC workflow, use:
+
+```bash
+cd atac_seq
+conda env create -f environment.yml
+conda activate atac-seq-pipeline
+```
+
+Then follow `atac_seq/README.md` for upstream/downstream commands.
 
 ## 🧪 Test Data
 

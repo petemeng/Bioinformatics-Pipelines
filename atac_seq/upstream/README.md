@@ -68,3 +68,9 @@ bash scripts/run_atac_upstream.sh \
 - 建议最少每组 3 个生物学重复。
 - `MAPQ>=30`、`FDR<0.05` 是常见起点，不应替代特定课题优化。
 - `chrM` 过滤策略需与课题（核ATAC/全细胞）一致。
+
+## Common Pitfalls
+
+- Metadata sample IDs must uniquely map to FASTQ pairs.
+- Ensure reference FASTA used for alignment matches the blacklist genome build.
+- For large cohorts, consider per-sample parallel execution in a scheduler (SLURM/SGE).
