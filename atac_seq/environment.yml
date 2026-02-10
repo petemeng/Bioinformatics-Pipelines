@@ -1,0 +1,17 @@
+name: atac-seq-pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - r-base=4.3
+  - fastqc=0.12.1
+  - multiqc=1.21
+  - bwa-mem2=2.2.1
+  - samtools=1.20
+  - bedtools=2.31.1
+  - macs3=3.0.1
+  - subread=2.0.6
+  - bioconductor-deseq2
+  - r-ggplot2
