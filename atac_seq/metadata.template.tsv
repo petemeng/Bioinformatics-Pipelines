@@ -1,0 +1,5 @@
+sample_id	group	replicate	batch	fastq_r1	fastq_r2
+CTRL_01	CTRL	1	B1	/path/CTRL_01_R1.fastq.gz	/path/CTRL_01_R2.fastq.gz
+CTRL_02	CTRL	2	B1	/path/CTRL_02_R1.fastq.gz	/path/CTRL_02_R2.fastq.gz
+TRT_01	TRT	1	B2	/path/TRT_01_R1.fastq.gz	/path/TRT_01_R2.fastq.gz
+TRT_02	TRT	2	B2	/path/TRT_02_R1.fastq.gz	/path/TRT_02_R2.fastq.gz

@@ -18,6 +18,7 @@ Here is a directory of the analysis pipelines currently available in this reposi
 | **Metagenomics** | [Shotgun Metagenomics](./metagenomics/) | *(Coming Soon)* Analysis of shotgun metagenomic data, including assembly, binning, and functional annotation. |
 | **Transcriptomics**| [RNA-seq Analysis](./transcriptomics/) | *(Coming Soon)* Differential gene expression analysis from RNA-seq data. |
 | **Single-Cell** | [scRNA-seq Analysis](./single_cell_omics/) | *(Coming Soon)* Clustering, cell type identification, and trajectory analysis for single-cell RNA-seq data. |
+| **Epigenomics** | [ATAC-seq Analysis](./atac_seq/) | Research-grade bulk ATAC-seq workflow from FASTQ to differential accessibility and motif interpretation. |
 
 ## 🔧 Getting Started
 
